@@ -29,6 +29,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     filter:drop-shadow(8px 8px 10px gray);
+    overflow-y: hidden;
 }
 nav{
     background-color: rgba(0, 0, 0, 0.9);
@@ -129,11 +130,12 @@ text-shadow: 2px 2px 2px slateblue;
     background-color: lightseagreen;
     color: seashell;
 }
-/*
+
 .secondmain{
     background-color: white;
     width: 100%;
-    height: 500px;
+    height: 1000px;
+    overflow-y: hidden;
 }
 .grocery h4{
     display: flex;
@@ -142,9 +144,303 @@ text-shadow: 2px 2px 2px slateblue;
     font-size: 25px;
     margin: 20px;
 }
-*/
+.music-image{
+    width: 160vh;
+    margin: 20px;
+    position: relative;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+}
+.images img{
+    width: 40vh;
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: azure;
+}
+.images h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+}
+.images h6{
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+}
+.images h7{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.images button{
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 5vh;
+    font-size: 15px;
+    font: bolder;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left: 25%;
+    outline: none;
+}       
+
+.second-images{
+    width: 160vh;
+    margin: 20px;
+    gap: 2rem;
+    position: relative;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.second-row img{
+    width: 40vh;
+    height: 40vh;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: azure;
+}
+.second-row h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+}
+.second-row h6{
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+}
+.second-row h7{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.second-row button{
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 5vh;
+    font-size: 15px;
+    font: bolder;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left: 25%;
+    outline: none;
+} 
+
+.second-last{
+    width: 100%;
+    height: 500px;
+    background-color: #f5e6ff;
+}
+.service{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service h8{
+    font-size: 20px;
+}
+.payment-details{
+    width: 100%;
+    height: 30vh;
+    padding: 40px;
+    padding-right: 40px;
+    background-color: white;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.payment-row{
+    width: 100%;
+}
+.payment-row img{
+    width: 65px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.payment-details h9{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.update-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+.update-page h10{
+    font-size: 22px;
+    font-style: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+}
+.forms input[type=text] {
+    width: 50vh;
+    height: 5vh;
+    text-align: center;
+    border-color: mediumorchid;
+    outline: none;
+}
+.forms button{
+    width: 18vh;
+    height: 5vh;
+    background-color: mediumorchid;
+    color: white;
+    cursor: pointer;
+    border-style: hidden;
+    border-radius: 2px;
+    outline: none;
+}
+footer{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.music-hub{
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 7%;
+    width:150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.course-content{
+	width: 170px;
+	position: relative;
+	left: 25%;
+	top: 8%;
+}
+.course-content a{
+	font-size: 19px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2px;
+	text-decoration: none;
+    color: slategray;
+    padding: 2px;
+}
+.course-content h12{
+	font-size: 25px;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+    color: white;
+}
+.copyrights{
+	position: relative;
+	left: -5%;
+	top: 10%;
+}
+.copyrights p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+    color: yellow;
+}
+.about-us{
+    position: relative;
+    left: 45%;
+    top: -23%;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+}
+.about-us h13{
+    color: white;
+    font-size: 25px;
+}
+.about-us h14{
+    color: white;
+}
+.about-us p{
+    color: yellow;
+}
+
+.follow-us{
+    position: relative;
+    top: -20%;
+    left: 55%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.follow-us h14{
+    color: white;
+    font-size: 20px;
+}
+#facebook{
+    color: blue;
+    font-size: 50px;
+    padding: 10px;
+}
+#instagram{
+    color: red rebeccapurple;
+    font-size: 50px;
+    padding: 10px;
+}
+#twitter{
+    color: blue;
+    font-size: 50px;
+    padding: 10px;
+}
+#linkedin{
+   color: lightskyblue;
+   font-size: 50px;
+   padding: 10px;
+}
     </style>
-  <script src="music.js"></script>
 </head>
 <body>
 <nav>
@@ -168,11 +464,183 @@ text-shadow: 2px 2px 2px slateblue;
       <button id="shop"> Shop By Category</button> <button>Check New Offers</button>
       </div>
     </section>
-    <!--
+       
+       <!-- Music Instruments product -->
    <section class="secondmain">
        <div class="grocery">
       <h4><u>Music Instruments</u></h4>
        </div>
-   </section> -->
+
+         <div class="music-image">
+          <div class="images">
+          <img src="./images/fender.jpg"/>
+          <h5>Electric Guitar</h5>
+          <h6><s>Price 8000 Rs</s></h6>
+          <h7>Discount 10%</h7>
+          <button>Buy Now</button>
+          </div>
+
+          <div class="images">
+          <img src="./images/Pearl.jpg"/>
+          <h5>Drums</h5>
+          <h6><s>Price 20000 Rs</s></h6>
+          <h7>Discount 10%</h7>
+          <button>Buy Now</button>
+          </div>
+
+          <div class="images">
+          <img src="./images/Piano.jpg"/>
+          <h5>Piano</h5>
+          <h6><s> Price 15000 Rs</s></h6>
+          <h7>Discount 10%</h7>
+          <button>Buy Now</button>
+          </div>
+         </div>
+
+         <div class="second-images">
+             <div class="second-row">
+                 <img src="./images/sexaphone.jpg" />
+                  <h5>Sexaphone</h5>
+                 <h6><s> Price 25000 Rs</s></h6>
+                 <h7>Discount 10%</h7>
+                <button>Buy Now</button>
+               </div>
+
+               <div class="second-row">
+               <img src="./images/Zoom.jpg" />
+                  <h5>Zoom Box</h5>
+                 <h6><s> Price 18000 Rs</s></h6>
+                 <h7>Discount 10%</h7>
+                <button>Buy Now</button>        
+               </div>
+
+               <div class="second-row">
+               <img src="./images/Amplifiers.jpg" />
+                  <h5>Marshall Amplifier</h5>
+                 <h6><s> Price 12000 Rs</s></h6>
+                 <h7>Discount 10%</h7>
+                <button>Buy Now</button>    
+               </div>
+         </div>
+   </section> 
+
+   <section class="second-last">
+   <div class="service">
+   <h8>Our Services</h8>
+   </div>
+   <div class="payment-details">
+       <div class="payment-row">
+    <img src="./images/card.png" />
+    <h9>Secured Payment</h9>
+   </div>
+
+       <div class="payment-row">
+    <img src="./images/seller.jpg" />
+    <h9>Verified Sellers</h9>
+   </div>
+
+   
+   <div class="payment-row">
+    <img src="./images/delivery.png" />
+    <h9>On Time Delivery</h9>
+   </div>
+
+   <div class="payment-row">
+    <img src="./images/customerservice.jpg" />
+    <h9>Excellent Customer service</h9>
+   </div>
+   </div>
+
+       <div class="update-page">
+           <div>
+           <h10>Keep and & Get Unlimited Offers</h10>
+           <p>Sign Up of our newsletter to receive updates and exclusive offers</p>
+        </div>
+       </div>
+
+           <div class="forms">
+           <form method="POST">
+           <input type="text"  name="email" placeholder="You email address" required autocomplete="off" /><button name="submit">Subscribe</button>
+           </form>
+           </div>
+   </section>
+
+ <footer>
+     <div class="music-hub">
+             <h11>Music Hub</h11>
+         </div>
+
+         <div class="course-content">
+					<h12>Music classes</h12>
+				<a href="#">Guitar</a>
+				<a href="#">Drum</a>
+				<a href="#">KeyBoard</a>
+				<a href="#">Flue</a>
+				<a href="#">Ochestra</a>
+            </div>
+            
+            <div class="about-us">
+				<h13>About Us</h13>
+                <p>Music Hub Founded in August 2000 in New York, U.S.<br>
+                   You could find any type of instruments and music tutors.<br>
+                   Uttam Pun is the C.E.O of this Company.
+            </p>
+    
+            </div>
+
+            <div class="follow-us">
+             <h14>Follow Us On:</h14>
+             <div class="logo">
+             <a href="#"><i class="fa fa-facebook" id="facebook"></a></i>
+             <a href="#"><i class="fa fa-instagram" id="instagram"></a></i>
+             <a href="#"><i class="fa fa-twitter" id="twitter"></a></i>
+             <a href="#"><i class="fa fa-linkedin" id="twitter"></a></i>
+            </div>
+            </div>
+			<div class="copyrights">
+				<p>© 2020 Music Hub Inc. All rights reserved.</p>
+			</div>
+ </footer>
+
+ <?php
+$connection = "localhost:3306";
+$user = "root";
+$password = "";
+$database = "musicworld";
+
+$server = mysqli_connect($connection, $user, $password, $database);
+
+if($server) {
+  
+} else{
+   die("Unable to connect");
+}
+
+  if (isset($_POST['submit'])) {
+      $email = mysqli_real_escape_string($server, $_POST['email']);
+
+      $insert = "INSERT INTO subsribe(email)VALUES('$email')";
+      $insertquerry = mysqli_query($server, $insert);
+
+      if($insert) {
+          ?>
+     <script>
+         alert("Inserted Successfully");
+         location.replace('music.php')
+     </script>
+          <?php
+      } else{
+        ?>
+        <script>
+            alert("Not Inserted.");
+        </script>
+             <?php
+      }
+  }
+     ?>
+
+   <script type="text/javascript">
+     
+   </script>
 </body>
 </html>
